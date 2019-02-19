@@ -17,3 +17,5 @@ pipeline {
                 sh 'mvn -f clean package checkstyle:checkstyle findbugs:findbugs cobertura:cobertura pmd:pmd -DskipDockerBuild=true'
             }
  }
+    }
+}
