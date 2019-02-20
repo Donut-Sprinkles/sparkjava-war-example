@@ -21,8 +21,15 @@
 			<artifactId>slf4j-simple</artifactId>
 			<version>1.7.25</version>
 		</dependency>
-<test>
-<plugins>
+
+
+
+	
+
+
+	<build>
+		<plugins>
+
 <plugin>
   <groupId>org.apache.maven.plugins</groupId>
    <artifactId>maven-checkstyle-plugin</artifactId>
@@ -44,15 +51,9 @@
      </execution>
    </executions>
  </plugin>
-</plugins>
-</test>
 
 
-	
 
-
-	<build>
-		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
