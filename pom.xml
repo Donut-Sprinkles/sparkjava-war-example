@@ -21,6 +21,7 @@
 			<version>1.7.25</version>
 		</dependency>
 	</dependencies>
+<plugins>
  <plugin>
    <groupId>org.apache.maven.plugins</groupId>
    <artifactId>maven-checkstyle-plugin</artifactId>
@@ -42,6 +43,7 @@
      </execution>
    </executions>
  </plugin>
+</plugins>
 	<build>
 		<plugins>
 			<plugin>
